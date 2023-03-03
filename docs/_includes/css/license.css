@@ -1,0 +1,8 @@
+.cc-by {
+  & svg {
+    height: 1.4em;
+    width: auto;
+    vertical-align: text-bottom;
+    margin-top: 0;
+  }
+}

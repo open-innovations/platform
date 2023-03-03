@@ -1,0 +1,20 @@
+layout: template/page.njk
+date: Git Last Modified
+
+# Override the site logo colour here. Any CSS colour will work.
+logo_colour: black
+
+# Override the header class here. See https://open-innovations.org/brand for colour classes
+header_class: c4-bg
+
+# Automatically adds meta and social tags 
+# See https://lume.land/plugins/metas/
+metas:
+  title: =title
+  site: Open Innovations Platform
+  description: Documentation of the Open Innovations plaform
+  image: https://open-innovations.org/resources/images/logos/oi-square.png
+  twitter: openinnovates
+  lang: en
+
+tracking_property: platform.open-innovations.org
