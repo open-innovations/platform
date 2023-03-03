@@ -1,0 +1,11 @@
+---
+title: Principles
+---
+
+{% set sorted_principles = principles | flatten_object | sort(false, false, 'key') %}
+
+<div>
+{% for p in principles | flatten_object | sort(false, false, 'key') %}
+  {{ comp.principle({ principle: p }) | safe }}
+{% endfor %}
+</div>

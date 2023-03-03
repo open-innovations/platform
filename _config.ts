@@ -8,6 +8,10 @@ import postcss from "lume/plugins/postcss.ts";
 const site = lume({
   src: './docs',
   location: new URL("https://open-innovations.github.io/platform/"),
+  components: {
+    cssFile: '/assets/css/components.css',
+    jsFile: '/assets/js/components.js',
+  }
 });
 
 site.use(base_path());
@@ -15,6 +19,8 @@ site.use(inline());
 site.use(metas());
 site.use(date());
 site.use(postcss({}));
+
+site.filter('flatten_object', (o: Record<string, Record<string, unknown>>) => Object.entries(o).map(([key, props]) => ({ ...props, key })))
 
 site.copy('CNAME');
 site.copy('.nojekyll');
