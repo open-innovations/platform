@@ -87,29 +87,38 @@ header a { line-height: 0; }
 .holder { position: relative; width: 1080px; max-width: 100%; margin: auto; }
 button, .button { margin-top: 0.25em; border: 0px; font-size: 1em; background-color: #efefef; color: black; text-decoration: none!important; display: inline-block; padding: 0.5em 1em; cursor: pointer; }
 a.button:hover, button:hover, button:focus, a.button:focus { background-color: #333333!important; color: #efefef!important; }
-.b1-bg { background-color: #000000; color: white!important; }
-.b2-bg { background-color: #333333; color: white!important; }
-.bk-bg { background-color: #6D6D6D; color: white!important; }
-.b3-bg, .github:hover { background-color: #999999; color: black!important; }
-.b4-bg { background-color: #bbbbbb; color: black!important; }
-.b5-bg, .off label { background-color: #dfdfdf; color: black!important; }
-.b6-bg { background-color: #ffffff; color: black!important; }
-.c1-bg, .elsewhere .facebook:hover, .c1-bg-hover:hover, .c1-bg:visited, .seasonal, .seasonal:visited, .seasonal:hover { background-color: #2254F4; color: white; }
-.c2-bg, .c2-bg-hover:hover, .c2-bg:visited { background-color: #178CFF; color: black; }
-.c3-bg, .elsewhere .twitter:hover, .c3-bg-hover:hover, .c3-bg:visited { background-color: #00B6FF; color: black; }
-.c4-bg, .c4-bg-hover:hover, .c4-bg:visited, .seasonal-accent, .seasonal-accent:hover, .seasonal-accent:visited { background-color: #08DEF9; color: black; }
-.c5-bg, .c5-bg-hover:hover, .c5-bg:visited { background-color: #1DD3A7; color: black; }
-.c6-bg, .c6-bg-hover:hover, .c6-bg:visited { background-color: #0DBC37; color: black; }
-.c7-bg, .c7-bg-hover:hover, .c7-bg:visited { background-color: #67E767; color: black; }
-.c8-bg, .c8-bg-hover:hover, .c8-bg:visited { background-color: #722EA5; color: white; }
-.c9-bg, .c9-bg-hover:hover, .c9-bg:visited, .instagram:hover { background-color: #E6007C; color: white; }
-.c10-bg, .c10-bg-hover:hover, .c10-bg:visited, .flickr:hover { background-color: #EF3AAB; color: black; }
-.c11-bg, .c11-bg-hover:hover, .c11-bg:visited { background-color: #D73058; color: white; }
-.c12-bg, .c12-bg-hover:hover, .c12-bg:visited, .youtube:hover { background-color: #D60303; color: white; }
-.c13-bg, .c13-bg-hover:hover, .c13-bg:visited { background-color: #FF6700; color: black; }
-.c14-bg, .c14-bg-hover:hover, .c14-bg:visited { background-color: #F9BC26; color: black; }
-.c12-bg, .on label { background-color: #D60303; color: white; }
-.c12-bg:hover, .c12-bg:focus { background: #444; color: white; }
+
+
+:root .c1-bg, :root a.c1-bg:visited, :root .facebook:hover { background-color: #2254F4; color: white!important; }
+:root .c2-bg, :root a.c2-bg:visited { background-color: #178CFF; color: black!important; }
+:root .c3-bg, :root a.c3-bg:visited, :root .twitter:hover { background-color: #00B6FF; color: black!important; }
+:root .c4-bg, :root a.c4-bg:visited { background-color: #08DEF9; color: black!important; }
+:root .c5-bg, :root a.c5-bg:visited { background-color: #1DD3A7; color: black!important; }
+:root .c6-bg, :root a.c6-bg:visited { background-color: #0DBC37; color: black!important; }
+:root .c7-bg, :root a.c7-bg:visited { background-color: #67E767; color: black!important; }
+:root .c8-bg, :root a.c8-bg:visited { background-color: #722EA5; color: white!important; }
+:root .c9-bg, :root a.c9-bg:visited, :root .instagram:hover, :root .internal #main > .seasonal { background-color: #E6007C; color: white!important; }
+:root .c10-bg, :root a.c10-bg:visited, :root .flickr:hover { background-color: #EF3AAB; color: black!important; }
+:root .c11-bg, :root a.c11-bg:visited { background-color: #D73058; color: white!important; }
+:root .c12-bg, :root a.c12-bg:visited, :root .youtube:hover { background-color: #D60303; color: white!important; }
+:root .c13-bg, :root a.c13-bg:visited, :root .seasonal-accent { background-color: #FF6700; color: black!important; }
+:root .c14-bg, :root a.c14-bg:visited, :root .seasonal, :root .seasonal:hover { background-color: #F9BC26; color: black!important; }
+:root .s1-bg, :root a.s1-bg:visited { background-color: #2f529f; color: white!important; }
+:root .s2-bg, :root a.s2-bg:visited { background-color: #00ace8; color: black!important; }
+:root .s3-bg, :root a.s3-bg:visited { background-color: #7dc5ea; color: black!important; }
+:root .b1-bg, :root a.b1-bg:visited { background-color: #000000; color: white!important; }
+:root .b2-bg, :root a.b2-bg:visited { background-color: #333333; color: white!important; }
+:root .bk-bg, :root a.bk-bg:visited { background-color: #6D6D6D; color: white!important; }
+:root .b3-bg, :root a.b3-bg:visited, :root .github:hover { background-color: #999999; color: black!important; }
+:root .b4-bg, :root a.b4-bg:visited { background-color: #bbbbbb; color: black!important; }
+:root .b5-bg, :root a.b5-bg:visited { background-color: #dfdfdf; color: black!important; }
+:root .b6-bg, :root a.b6-bg:visited { background-color: #ffffff; color: black!important; }
+:root a.c1-bg:hover, :root a.c2-bg:hover, :root a.c3-bg:hover, :root a.c4-bg:hover, :root a.c5-bg:hover, :root a.c6-bg:hover, :root a.c7-bg:hover, :root a.c8-bg:hover, :root a.c9-bg:hover, :root a.c10-bg:hover, :root a.c11-bg:hover, :root a.c12-bg:hover, :root a.c13-bg:hover, :root a.c14-bg:hover, :root a.seasonal:hover, :root a.b1-bg:hover, :root a.b2-bg:hover, :root a.b3-bg:hover, :root a.b4-bg:hover, :root a.b5-bg:hover, :root a.s1-bg:hover, :root a.s2-bg:hover, :root a.s3-bg:hover, :root a.c1-bg:focus, :root a.c2-bg:focus, :root a.c3-bg:focus, :root a.c4-bg:focus, :root a.c5-bg:focus, :root a.c6-bg:focus, :root a.c7-bg:focus, :root a.c8-bg:focus, :root a.c9-bg:focus, :root a.c10-bg:focus, :root a.c11-bg:focus, :root a.c12-bg:focus, :root a.c13-bg:focus, :root a.c14-bg:focus, :root a.seasonal:focus, :root a.b1-bg:focus, :root a.b2-bg:focus, :root a.b3-bg:focus, :root a.b4-bg:focus, :root a.b5-bg:focus, :root a.s1-bg:focus, :root a.s2-bg:focus, :root a.s3-bg:focus { background-color: #000000; color: white!important; }
+:root .b6-bg .button { background-color: black; color: white!important; }
+:root .c1-bg a, :root .c2-bg a, :root .c3-bg a, :root .c4-bg a, :root .c5-bg a, :root .c6-bg a, :root .c7-bg a, :root .c8-bg a, :root .c9-bg a, :root .c10-bg a, :root .c11-bg a, :root .c12-bg a, :root .c13-bg a, :root .c14-bg a, :root .b1-bg a, :root .b2-bg a, :root .b3-bg a, :root .b4-bg a, :root .b5-bg a, :root .b6-bg a { color: inherit; }
+/*.b5-bg a { color: #1C3CA3; }*/
+.warning { color: rgb(95, 82, 7); background-color: rgb(251, 245, 208); filter: drop-shadow(0px 0px 1px rgb(95, 82, 7)); }
+
 .padded { padding: 1em; }
 .padded-bottom { padding: 1em; margin-bottom: 1em; }
 .doublepadded { padding: 2em; }
