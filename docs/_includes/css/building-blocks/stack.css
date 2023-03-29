@@ -1,6 +1,6 @@
 /* https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/ */
 .stack * + * {
-  margin-top: 1.5em;
+  margin-top: 1em;
 }
 .no-stack > * {
 	margin-top: 0;

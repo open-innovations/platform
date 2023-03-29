@@ -126,6 +126,8 @@ a.button:hover, button:hover, button:focus, a.button:focus { background-color: #
 section { padding: 2em 0; }
 ul > li + *, ul > li > ul { margin-top: 0.5em; } 
 
+.block > *:last-child { margin-bottom: 0; }
+
 .elsewhere { float: right; margin-top: 0; }
 .elsewhere li { display: inline-block; margin-left: 0.5em; }
 .elsewhere li a { line-height: 0; display: block; }

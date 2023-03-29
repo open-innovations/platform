@@ -1,6 +1,6 @@
 {%- set level = level or 2 -%}
 
-{% comp 'block', { classes: 'c9-bg' } %}
+{% comp 'block', { classes: 'c9-bg doublepadded' } %}
   <h{{ level }}><span>{{ principle.key }}</span> // {{ principle.title | safe }}</h{{ level }}>
-  <p>{{ principle.description | md | safe }}</p>
+  {{ principle.description | md | safe }}
 {% endcomp %}
