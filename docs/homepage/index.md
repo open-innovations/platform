@@ -9,6 +9,7 @@ It is mainly designed to act as a reference for the team, but we've made it avai
 under a Creative Commons Attribution {{ comp.license.part.cc_by() | safe }} license to
 allow anyone to freely reuse and remix it.
 
-For now, the site doesn't contain much more than a set of <a href='/principles/'>principles</a>,
+For now, the site doesn't contain much more than a set of <a href='/principles/'>principles</a>
+and a work-in-progress description of our [delivery process](/processes/delivery/),
 buy we've got a big plans to document the tools, techniques and libraries that we've defined and
 created over the last couple of years.
