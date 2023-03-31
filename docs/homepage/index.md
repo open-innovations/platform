@@ -11,5 +11,5 @@ allow anyone to freely reuse and remix it.
 
 For now, the site doesn't contain much more than a set of <a href='/principles/'>principles</a>
 and a work-in-progress description of our [delivery process](/processes/delivery/),
-buy we've got a big plans to document the tools, techniques and libraries that we've defined and
+but we've got big plans to document the tools, techniques and libraries that we've defined and
 created over the last couple of years.
