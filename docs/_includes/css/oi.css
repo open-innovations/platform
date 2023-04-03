@@ -134,3 +134,5 @@ ul > li + *, ul > li > ul { margin-top: 0.5em; }
 .elsewhere li a { line-height: 0; display: block; }
 footer .address { margin-top: 1em; }
 footer a { color: inherit; }
+
+svg.oi-logo { width: 100px; }

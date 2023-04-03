@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* These are imported by the PostCSS processor. Source is in the `_includes/css` folder */
 @import 'css/reset.css';
+@import 'css/building-blocks/figure.css';
+@import 'css/building-blocks/image.css';
 @import 'css/building-blocks/stack.css';
 
 /*

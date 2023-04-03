@@ -1,0 +1,8 @@
+figcaption {
+  text-align: center;
+  font-style: italic;
+  &::before {
+    counter-increment: figure;
+    content: 'Figure ' counter(figure, decimal) ': ';
+  }
+}

@@ -3,7 +3,15 @@ import base_path from "lume/plugins/base_path.ts";
 import date from "lume/plugins/date.ts";
 import inline from 'lume/plugins/inline.ts';
 import metas from "lume/plugins/metas.ts";
+import svgo from "lume/plugins/svgo.ts";
 import postcss from "lume/plugins/postcss.ts";
+
+import imageCaption from "./lib/markdown-it-image-caption.ts";
+
+const markdown = {
+  plugins: [imageCaption],
+  keepDefaultPlugins: true,
+}
 
 const site = lume({
   src: './docs',
@@ -12,9 +20,12 @@ const site = lume({
     cssFile: '/assets/css/components.css',
     jsFile: '/assets/js/components.js',
   }
+}, {
+  markdown,
 });
 
 site.use(base_path());
+site.use(svgo());
 site.use(inline());
 site.use(metas());
 site.use(date());
