@@ -22,15 +22,19 @@ Extraction and processing of data is automated.
 * File formats
   * CSV
   * Parquet
+  * Provision of an API?
   * etc
-* Field / file naming standards
+* Field / file naming standards, including lookups
+* Geographic data
+* Hierarchy lookup standards
 * Standardisation / normalisation of formats
-  * handling periodicity - monthly, annual, quarterly date
+  * handling periodicity - monthly, annual, quarterly date, rolling quarters
   * 'low' or suppressed values
-  * units - %, m, bn, currency values, seasonal adjustments
+  * units - %, m, bn, currency values, seasonal adjustments, indices
   * % of what - baseline
   * categorical / ordered categorical values (e.g. A*-U for A-level)
-* Pipleline automation
+* Pipeline automation
   * Processing scripts
   * 'Downloading'
-* Link to [metadata visualisation](/components/metadata-visualser/)
+* Maintenance of meta data (licence, source, last/next update)
+* Link to [metadata visualisation](/components/metadata-visualiser/)
