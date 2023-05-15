@@ -6,9 +6,10 @@
 @import 'css/building-blocks/stack.css';
 
 /*
-  All the standard OI stuff is included here.
-  Could be modularised, given PostCSS could enable much smaller css packages to be created.
+All the standard OI stuff is included here.
+Could be modularised, given PostCSS could enable much smaller css packages to be created.
 */
 @import 'css/oi.css';
 
+@import 'css/building-blocks/nav.css';
 @import 'css/license.css';

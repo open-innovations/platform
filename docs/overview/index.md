@@ -1,5 +1,6 @@
 ---
-title: Platform overview
+title: Overview
+nav_order: 10
 ---
 
 The diagram below shows an overview of the platform, along with identified tech stack.

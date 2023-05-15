@@ -31,6 +31,6 @@
 	<script src="https://open-innovations.org/resources/oi.log.js"></script>
 	<script>
     {%- if tracking_property -%}
-      OI.log.setup({'id':'odileeds','target':[{{ tracking_property | dump() }}]}).add('action=view');
+      OI.log.setup({'id':'odileeds','target':["{{ tracking_property }}"]}).add('action=view');
     {% endif %}
 	</script>

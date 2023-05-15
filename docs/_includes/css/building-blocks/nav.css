@@ -1,0 +1,67 @@
+nav > button {
+  margin: 0;
+}
+.top-menu {
+  font-family: var(--oi-title-fontstack);
+  font-size: 1.2em;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0 0.5em;
+  & a {
+    text-decoration: none;
+  }
+  & ul {
+    list-style: none;
+    background: inherit;
+    & * + * {
+      margin: 0;
+    }
+    & li {
+      padding: 0.5em;
+      &:hover {
+        background-color: white;
+        color: #000;
+      }
+    }
+  }
+  & nav {
+    background: inherit;
+    & > button {
+      color: inherit;
+      background: inherit;
+      &:hover {
+        background: white;
+        color: #000;
+      }
+      @media screen and (min-width: 800px) {
+        display: none;
+      }
+    }
+    & > button {
+      & + * {
+        position: absolute;
+        margin: 0;
+        padding: 0.5em;
+        flex-direction: column;
+        left: 0;
+        right: 0;
+        @media screen and (min-width: 800px) {
+          display: flex;
+          flex-direction: row;
+          gap: unset;
+          position: unset;
+          padding: unset;
+          border: unset;
+        }
+      }
+      &[aria-expanded=true] + * {
+        display: flex;
+      }
+    }
+  }
+}
+[hidden] {
+  display: none;
+}
