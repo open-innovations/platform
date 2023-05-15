@@ -1,5 +1,5 @@
 <ul>
-{% for page in search.pages('url^=' + url_base) | data %}
+{% for page in search.pages('url^=' + url_base, 'url') | data %}
   {% if page.url !== url_base %}
   <li>
     <a href="{{ page.url }}">{{ page.title }}</a>
