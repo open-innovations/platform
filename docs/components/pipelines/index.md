@@ -1,6 +1,6 @@
 ---
 title: Reproducible Pipelines
-authors:
+page_authors:
   - gdring
 ---
 

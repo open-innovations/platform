@@ -2,7 +2,8 @@
 title: Welcome
 url: /
 templateEngine: njk,md
-author: gdring
+page_authors:
+  - gdring
 ---
 
 This site documents the Open Innovations plaform: the way that we build our projects.

@@ -1,0 +1,21 @@
+---
+css: |
+  .author.cred {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    & img {
+      width: 3rem;
+      border-radius: 2rem;
+    }
+  }
+---
+{% set author = authors[id] %}
+<div class="author cred">
+<a href="https://open-innovations.org/about/team/#{{ id }}">
+  <img src="https://open-innovations.org/about/team/{{ id }}.jpg" title="{{ author.name }}"/>
+</a>
+<div>
+<p>{{ author.name }}</p>
+</div>
+</div>
