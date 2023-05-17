@@ -3,7 +3,10 @@ title: Principles
 nav_order: 20
 ---
 
-{% set sorted_principles = principles | flatten_object | sort(false, false, 'key') %}
+<p>
+We're documenting the priciples we adopt when doing our work to provide a framework for decision making.
+This could be decisions about adoption of a new technology, or whether to invest in a given project.
+</p>
 
 <div>
 {% for p in principles | flatten_object | sort(false, false, 'key') %}
