@@ -11,7 +11,10 @@ import imageCaption from "./lib/markdown-it-image-caption.ts";
 const markdown = {
   plugins: [imageCaption],
   keepDefaultPlugins: true,
-}
+};
+const search = {
+  returnPageData: true
+};
 
 const site = lume({
   src: './docs',
@@ -22,6 +25,7 @@ const site = lume({
   }
 }, {
   markdown,
+  search,
 });
 
 site.use(base_path());
