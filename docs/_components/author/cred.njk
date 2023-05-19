@@ -11,11 +11,11 @@ css: |
   }
 ---
 {% set author = authors[id] %}
-<div class="author cred">
-<a href="https://open-innovations.org/about/team/#{{ id }}">
-  <img src="https://open-innovations.org/about/team/{{ id }}.jpg" title="{{ author.name }}"/>
-</a>
 <div>
-<p>{{ author.name }}</p>
-</div>
+  <a href="{{ author.link or 'https://open-innovations.org/about/team/#' + id }}" class="author cred">
+    <img src="{{ author.image or 'https://open-innovations.org/about/team/' + id + '.jpg' }}" title="{{ author.name }}"/>
+    <div>
+      <p>{{ author.name }}</p>
+    </div>
+  </a>
 </div>

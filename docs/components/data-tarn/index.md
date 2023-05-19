@@ -1,5 +1,8 @@
 ---
 title: Data Tarn
+page_authors:
+  - cspence
+  - gdring
 ---
 
 ## What is it?
