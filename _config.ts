@@ -5,6 +5,7 @@ import inline from 'lume/plugins/inline.ts';
 import metas from "lume/plugins/metas.ts";
 import svgo from "lume/plugins/svgo.ts";
 import postcss from "lume/plugins/postcss.ts";
+import minifyHTML from "lume/plugins/minify_html.ts";
 
 import imageCaption from "./lib/markdown-it-image-caption.ts";
 
@@ -34,6 +35,7 @@ site.use(inline());
 site.use(metas());
 site.use(date());
 site.use(postcss({}));
+site.use(minifyHTML());
 
 site.filter('flatten_object', (o: Record<string, Record<string, unknown>>) => Object.entries(o).map(([key, props]) => ({ ...props, key })))
 
