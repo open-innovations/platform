@@ -136,3 +136,8 @@ footer .address { margin-top: 1em; }
 footer a { color: inherit; }
 
 svg.oi-logo { width: 100px; }
+
+code {
+	background-color: rgb(220, 220, 220);
+	border-radius: 5px;
+}
